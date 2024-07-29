@@ -1,0 +1,147 @@
+.header{
+  display:flex;
+  flex-direction: row;
+  margin-bottom:40px;
+  justify-content: space-between;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  height:40px;
+  padding-top:10px;
+  padding-bottom:8px;
+  background-color:white;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(241, 227, 227);
+  z-index:51;
+}
+.left{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+.middle{
+  padding-right:150px;
+  padding-left:250px;
+  flex:1;
+  max-width:500px;
+  display:flex;
+
+}
+.right{
+  width:190px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding-right:15px;
+  flex-shrink: 0;
+}
+.hamb-menu{
+  width:25px;
+  margin-right:20px;
+  margin-left:20px;
+}
+.yt-logo{
+  width:93px;
+}
+.src-box{
+ flex:1;
+height:34px;
+border-color:rgb(192, 192, 192);
+border-width:.5px;
+padding-left:7px;
+font-size:18px;
+border-style:solid;
+box-shadow:inset 1px 1px 1px rgba(0,0,0,.1);
+border-radius:3px;
+width:0;
+}
+.src-box::placeholder{
+  font-size:18px;
+  
+}
+.src-button{
+width:65px;
+height:38px;
+border-color:rgb(192, 192, 192);
+border-width:1px;
+border-style:solid;
+background-color: rgb(240,240,240);
+margin-left:-1px;
+position:relative;
+cursor:pointer;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+ .tool-tip
+{
+background-color:gray;
+color:white;
+font-size:13px;
+padding-right:5px;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:5px;
+position:absolute;
+bottom:-30px;
+pointer-events: none;
+opacity:0;
+transition: opacity .3s;
+white-space:nowrap ;
+border-radius: 2px;
+}
+.upload-icon,.apps-icon,.noti-div{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.src-button:hover .tool-tip,
+.mic:hover .tool-tip,
+.upload-icon:hover .tool-tip,
+.apps-icon:hover .tool-tip,
+.noti-div:hover .tool-tip
+{
+  opacity:1;
+}
+.src-button-img{
+  width:25px;
+}
+.mic{
+  margin-left:10px;
+  width:40px;
+  border-radius:20px;
+  border:none;
+  position:relative;
+  cursor:pointer;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.mic-button-img{
+height:22px;
+}
+.upload,.apps,.noti{
+  height:35px;
+  width:25px;
+}
+.noti-div{
+  position:relative;
+}
+.noti-number{
+  position:absolute;
+  top:4px;
+  right:-4px;
+  background-color:rgb(185, 12, 12);
+  color:white;
+  padding:2px 5px 2px 5px;
+  border-radius: 100px;
+  font-size:11px;
+  font-family: roboto,arial;
+}
+.sign-in{
+  width:30px;
+  height:32px;
+}

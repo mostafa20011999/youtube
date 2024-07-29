@@ -1,0 +1,27 @@
+.side-bar{
+  position:fixed;
+  background-color:rgb(255, 255, 255);
+  left:0;
+  top:55px;
+  bottom:0px;
+  width:70px;
+  z-index:100;
+}
+.icon{
+  display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size:10px;
+font-family: Roboto, arial;
+padding-top:17px;
+padding-bottom:17px;
+}
+.icon:hover{
+  background-color:rgb(243, 242, 242);
+  cursor: pointer;
+}
+.side-bar img{
+  width:25px;
+  margin-bottom:5px;
+}
